@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanStyle | Proyecto Frontend SPA</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1 onclick="navegar('/')">UrbanStyle</h1>
+
+  <nav>
+    <a href="#" onclick="navegar('/')">Inicio</a>
+  </nav>
+
+ <div class="carrito" onclick="toggleCarrito()">
+  🛒 <span id="contador">0</span>
+</div>
+
+  <div class="modo-toggle" onclick="toggleModo()">
+    <span id="iconoModo">🌙</span>
+  </div>
+</header>
+
+<!-- OVERLAY -->
+<div id="overlayCarrito" class="overlay"></div>
+
+<!-- PANEL CARRITO -->
+<div class="carrito-panel" id="carritoPanel">
+
+  <div class="carrito-header">
+    <h3>Tu carrito</h3>
+    <button class="cerrar-carrito" onclick="toggleCarrito()">✕</button>
+  </div>
+
+  <ul id="listaCarrito"></ul>
+
+  <div class="resumen-carrito">
+    <p>Total:</p>
+    <span>$<span id="total">0</span></span>
+  </div>
+
+  <div class="acciones-carrito">
+    <button class="btn-secundario" onclick="comprarWhatsApp()">
+      Comprar por WhatsApp
+    </button>
+
+
+<button class="btn-principal-carrito"
+        onclick="toggleCarrito(); navegar('/checkout')">
+  Pagar ahora
+</button>
+
+    <button class="btn-peligro" onclick="vaciarCarrito()">
+      Vaciar carrito
+    </button>
+  </div>
+
+</div>
+
+<!-- CONTENIDO DINÁMICO SPA -->
+<div id="app"></div>
+
+<!-- NOTIFICACIÓN -->
+<div class="notificacion" id="notificacion">
+  Producto agregado al carrito ✔
+</div>
+
+<!-- SCRIPTS -->
+<script src="carrito.js"></script>
+<script src="favoritos.js"></script>
+<script src="ui.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Oversize",
+    "precio": 12000,
+    "categoria": "remera",
+    "imagen": "/img/remera-oversize.jpg",
+    "stock": {
+    "S": 5,
+    "M": 0,
+    "L": 3,
+    "XL": 0,
+    "XXL": 2
+  }
+},
+
+  {
+    "id": 2,
+    "nombre": "Jean Slim Fit",
+    "precio": 25000,
+    "categoria": "pantalon",
+    "imagen": "/img/pantalon-jean.jpg",
+    "stock": {
+    "S": 2,
+    "M": 3,
+    "L": 0,
+    "XL": 1,
+    "XXL": 2
+  }
+},
+
+
+  {
+    "id": 3,
+    "nombre": "Buzo Hoodie",
+    "precio": 20000,
+    "categoria": "buzo",
+    "imagen": "/img/buzo-hoddie.jpg",
+    "stock": {
+    "S": 0,
+    "M": 1,
+    "L": 3,
+    "XL": 0,
+    "XXL": 1
+  }
+}
+  
+]
