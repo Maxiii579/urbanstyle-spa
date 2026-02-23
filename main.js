@@ -98,7 +98,7 @@ function iniciarOrdenamiento() {
 // ===============================
 
 function navegar(ruta) {
-  window.history.pushState({}, "", ruta);
+  window.history.pushState({}, "", window.location.origin + ruta);
   router();
 }
 
@@ -601,4 +601,5 @@ function cambiarCantidad(valor) {
   }
 
   document.getElementById("cantidadDetalle").textContent = cantidadSeleccionada;
+
 }
