@@ -19,3 +19,17 @@ Este proyecto simula una tienda online donde los usuarios pueden explorar produc
 - Diseño responsive
 
 ## 📁 Estructura del proyecto
+img/
+index.html
+styles.css
+productos.json
+carrito.js
+favoritos.js
+main.js
+ui.js
+
+
+## 👨‍💻 Autor
+
+Alexis Gonzalez  
+Desarrollador Web Junior
