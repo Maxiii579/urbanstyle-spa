@@ -1,24 +1,32 @@
-# 🛍️ UrbanStyle - Tienda Online
+# 🛍️ UrbanStyle - Online Clothing Store
 
-Proyecto web de una tienda de ropa desarrollado con HTML, CSS y JavaScript.
+UrbanStyle es una tienda online desarrollada con **HTML, CSS y JavaScript** que permite explorar productos y gestionar un carrito de compras.
 
-Este proyecto simula una tienda online donde los usuarios pueden explorar productos, agregarlos al carrito y gestionar favoritos.
+## 🚀 Demo
 
-## 🚀 Tecnologías utilizadas
+urbanstylespa.netlify.app
+
+## 📸 Preview
+
+
+
+## 🛠 Tecnologías
 
 - HTML
 - CSS
 - JavaScript
 - JSON
 
-## 📦 Funcionalidades
+## ✨ Características
 
-- Visualización de productos
+- Catálogo de productos
 - Carrito de compras
 - Sistema de favoritos
 - Diseño responsive
 
-## 📁 Estructura del proyecto
+## 📂 Estructura del proyecto
+
+
 img/
 index.html
 styles.css
@@ -31,5 +39,4 @@ ui.js
 
 ## 👨‍💻 Autor
 
-Alexis Gonzalez  
-Desarrollador Web Junior
+Alexis Gonzalez
