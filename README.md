@@ -14,7 +14,7 @@ urbanstylespa.netlify.app
 ![Moda Urbana](img/Vista-de-producto-urbanstyle.png)
 
 ### 💳 Forma de pago 
-![Vista producto](img/Forma-de-pago-urbanstyle.png.png)
+![Vista producto](img/Forma-de-pago-urbanstyle.png)
 
 
 ## 🛠 Tecnologías
