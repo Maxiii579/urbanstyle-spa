@@ -1,49 +1,81 @@
-# 🛍️ UrbanStyle - Online Clothing Store
+# 🛍 UrbanStyle - Online Clothing Store
 
-UrbanStyle es una tienda online desarrollada con **HTML, CSS y JavaScript** que permite explorar productos y gestionar un carrito de compras.
+UrbanStyle es una tienda online desarrollada con **HTML, CSS y JavaScript** que permite explorar productos, agregarlos al carrito y gestionar favoritos.
 
-## 🚀 Demo
+Este proyecto fue creado como parte de mi práctica en desarrollo web frontend.
 
-urbanstylespa.netlify.app
+---
 
-## 📸 Preview
-### 🏠 Página principal
-![Portada UrbanStyle](img/portada-urbanstyle.png)
+# 🚀 Live Demo
 
-### 👕 🛍 Vista de producto
-![Moda Urbana](img/Vista-de-producto-urbanstyle.png)
+🌐 urbanstylespa.netlify.app
 
-### 💳 Forma de pago 
-![Vista producto](img/Forma-de-pago-urbanstyle.png)
+---
 
-
-## 🛠 Tecnologías
+# 🛠 Tecnologías utilizadas
 
 - HTML
 - CSS
 - JavaScript
 - JSON
 
-## ✨ Características
+---
 
-- Catálogo de productos
-- Carrito de compras
-- Sistema de favoritos
-- Diseño responsive
+# ✨ Características
 
-## 📂 Estructura del proyecto
+✔ Catálogo de productos  
+✔ Carrito de compras  
+✔ Sistema de favoritos  
+✔ Interfaz responsive  
+✔ Gestión de productos desde JSON  
 
+---
 
-img/
-index.html
-styles.css
-productos.json
-carrito.js
-favoritos.js
-main.js
-ui.js
+# 📸 Preview del proyecto
+
+## 🏠 Página principal
+![Portada UrbanStyle](img/portada-urbanstyle.png)
 
 
-## 👨‍💻 Autor
+## 🛍 Vista de producto
+![Vista producto](img/Vista-de-producto-urbanstyle.png)
+
+
+## 💳 Forma de pago
+![Forma de pago]((img/Forma-de-pago-urbanstyle.png))
+
+---
+
+# 📂 Estructura del proyecto
+
+
+urbanstyle-spa
+│
+├── img
+├── index.html
+├── styles.css
+├── productos.json
+├── carrito.js
+├── favoritos.js
+├── main.js
+└── ui.js
+
+
+---
+
+# 👨‍💻 Autor
+
+**Alexis Gonzalez**
+
+- GitHub: https://github.com/Maxiii579
+- LinkedIn: (www.linkedin.com/in/alexis-gonzalez-b9005a267)
+
+---
+
+# 📌 Próximas mejoras
+
+- Sistema de login de usuario
+- Integración con pasarela de pago
+- Base de datos para productos
 
 Alexis Gonzalez
