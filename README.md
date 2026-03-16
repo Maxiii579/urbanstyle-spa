@@ -42,7 +42,7 @@ Este proyecto fue creado como parte de mi práctica en desarrollo web frontend.
 
 
 ## 💳 Forma de pago
-![Forma de pago]((img/Forma-de-pago-urbanstyle.png))
+![Forma de pago](img/Forma-de-pago-urbanstyle.png)
 
 ---
 
